@@ -99,7 +99,8 @@ p {
         padding: 0 40px 0 0;
     }
 
-    h1 {
+    h1 {display:flex;
+        justify-content: right;
         color: #161A49;
         font-size: 62px;
         font-weight: 700;
@@ -118,6 +119,10 @@ p {
         width: 330px;
         padding: 47px 0 55px 0;
         text-align: right;
+    }
+    #learn-more{
+        display: block;
+        margin-right: 0px;
     }
 
 }
@@ -152,11 +157,12 @@ p {
     }
 
     .content {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         order: 1;
         height: 48vh;
         width: 100vw;
-        justify-items: center;
     }
 
     h1 {
@@ -165,9 +171,9 @@ p {
         font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.596px;
-        width: 100vw;
-        text-align: center;
         padding-top: 9.5vh;
+        max-width: 90vw;
+        text-align: center;
     }
 
     p {
@@ -183,6 +189,7 @@ p {
     }
 
     #learn-more {
+        justify-self: center;
         color: #6FBF44;
         font-size: 18px;
         font-weight: 500;
