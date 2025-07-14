@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>README do Projeto Nutricionista em Segurança Alimentar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             color: #333;
             max-width: 800px;
@@ -37,7 +38,7 @@
         p {
             margin-bottom: 1em;
         }
-        ul {
+        ul, ol {
             margin-bottom: 1em;
             padding-left: 25px;
         }
@@ -82,12 +83,31 @@
             font-weight: bold;
             font-size: 0.9em;
             margin-bottom: 1em;
+            text-align: center;
         }
         hr {
             border: 0;
             height: 1px;
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
             margin: 40px 0;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 20px auto;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            h3 {
+                font-size: 1.3em;
+            }
+            ul, ol {
+                padding-left: 20px;
+            }
         }
     </style>
 </head>
@@ -139,35 +159,4 @@
     <p>Para visualizar o projeto em seu ambiente de desenvolvimento:</p>
     <ol>
         <li><b>Clone o Repositório:</b>
-<pre><code>git clone https://github.com/arthurfreitas15/Wide-Coverage.git</code></pre>
-        </li>
-        <li><b>Navegue até o Diretório:</b>
-<pre><code>cd Wide-Coverage</code></pre>
-        </li>
-        <li><b>Abra o Arquivo:</b>
-            <p>Abra o arquivo <code>index.html</code> em seu navegador de preferência.</p>
-        </li>
-    </ol>
-    <hr>
-
-    <h2>🚧 Status do Projeto</h2>
-    <p><span class="status-badge">✅ Concluído e em produção</span> (Disponível em <a href="https://arthurfreitas15.github.io/Wide-Coverage/" target="_blank">https://arthurfreitas15.github.io/Wide-Coverage/</a>).</p>
-    <hr>
-
-    <h2>🤝 Contribuições</h2>
-    <p>Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou encontrar algum problema, sinta-se à vontade para abrir uma <i>issue</i> ou enviar um <i>pull request</i>.</p>
-    <hr>
-
-    <h2>✉️ Contato</h2>
-    <ul>
-        <li><b>LinkedIn:</b> <a href="[Seu perfil do LinkedIn aqui]" target="_blank">[Seu perfil do LinkedIn aqui]</a></li>
-        <li><b>GitHub:</b> <a href="https://github.com/arthurfreitas15" target="_blank">https://github.com/arthurfreitas15</a></li>
-    </ul>
-    <hr>
-
-    <h2>📝 Licença</h2>
-    <p>Este projeto está licenciado sob a Licença MIT. Veja o arquivo <a href="LICENSE" target="_blank">LICENSE</a> para mais detalhes.</p>
-    <hr>
-
-</body>
-</html>
+            <pre><code>git clone https
